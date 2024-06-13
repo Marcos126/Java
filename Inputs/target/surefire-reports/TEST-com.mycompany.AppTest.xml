@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.AppTest" time="0.021" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.AppTest" time="0.019" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/angel/Documents/cursoDeJava/HelloWorld/target/test-classes:/home/angel/Documents/cursoDeJava/HelloWorld/target/classes:/home/angel/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.class.path" value="/home/angel/Documents/cursoDeJava/Inputs/target/test-classes:/home/angel/Documents/cursoDeJava/Inputs/target/classes:/home/angel/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/home/angel/.sdkman/candidates/java/21.0.3-oracle/lib"/>
-    <property name="sun.java.command" value="/home/angel/Documents/cursoDeJava/HelloWorld/target/surefire/surefirebooter-20240613190208932_3.jar /home/angel/Documents/cursoDeJava/HelloWorld/target/surefire 2024-06-13T19-02-08_864-jvmRun1 surefire-20240613190208932_1tmp surefire_0-20240613190208932_2tmp"/>
+    <property name="sun.java.command" value="/home/angel/Documents/cursoDeJava/Inputs/target/surefire/surefirebooter-20240613193042270_3.jar /home/angel/Documents/cursoDeJava/Inputs/target/surefire 2024-06-13T19-30-42_198-jvmRun1 surefire-20240613193042270_1tmp surefire_0-20240613193042270_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/angel/Documents/cursoDeJava/HelloWorld/target/test-classes:/home/angel/Documents/cursoDeJava/HelloWorld/target/classes:/home/angel/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/home/angel/Documents/cursoDeJava/Inputs/target/test-classes:/home/angel/Documents/cursoDeJava/Inputs/target/classes:/home/angel/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/angel"/>
     <property name="user.language" value="en"/>
@@ -22,12 +22,12 @@
     <property name="java.version.date" value="2024-04-16"/>
     <property name="java.home" value="/home/angel/.sdkman/candidates/java/21.0.3-oracle"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/angel/Documents/cursoDeJava/HelloWorld"/>
+    <property name="basedir" value="/home/angel/Documents/cursoDeJava/Inputs"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/angel/Documents/cursoDeJava/HelloWorld/target/surefire/surefirebooter-20240613190208932_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/angel/Documents/cursoDeJava/Inputs/target/surefire/surefirebooter-20240613193042270_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
     <property name="user.name" value="angel"/>
@@ -41,7 +41,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="21.0.3"/>
-    <property name="user.dir" value="/home/angel/Documents/cursoDeJava/HelloWorld"/>
+    <property name="user.dir" value="/home/angel/Documents/cursoDeJava/Inputs"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
