@@ -16,7 +16,7 @@ public class App
          
         try (Scanner input = new Scanner(System.in)){
 
-        System.out.println(" Por favor ingrese sus horas trabajadas");
+        System.out.println(" Por favor ingrese su salario y horas trabajadas");
         float salario,horas,salarioSemanal;
         salario = input.nextFloat();
         horas = input.nextFloat();
