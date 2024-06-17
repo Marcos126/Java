@@ -2,9 +2,6 @@ package com.marquitos;
 
 import java.util.Scanner;
 
-/**
- * Este ejercicio consiste en dividir las horas dadas en semanas, dias, y horas
- */
 public class App 
 {
     public static void main( String[] args )
@@ -28,10 +25,12 @@ public class App
         diasCalculadas = restoSemanal / 24;
         horasCalculadas = restoSemanal % 24;
 
+        //Cambiamos las variables de int a string
         String semanas = Integer.toString(semanasCalculadas);
         String dias = Integer.toString(diasCalculadas);
         String horas = Integer.toString(horasCalculadas);
 
+        //lo imprimimos en pantalla
         System.out.println("Las semanas calculadas fueron: " + semanas + " semanas, " + dias + " dias, " + horas + " horas.");
 
 
