@@ -15,4 +15,30 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version> 
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>libs/</classpathPrefix>
+                            <mainClass>com.marquitos.App</mainClass>
+                            </manifest>
+                        </archive>
+                    </configuration>
+                </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version> 
+                <configuration>
+                    <mainClass>com.marquitos.App</mainClass>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
 </project>
