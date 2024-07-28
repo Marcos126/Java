@@ -2,6 +2,18 @@ package ClasesYObjetos;
 
 public class Pierna {
 
-    float durabilidad = 100;
+    private float durabilidad = 100;
+
+    public void usoDurabilidad(float uso_durabilidad){
+        durabilidad -= uso_durabilidad;
+    }
+
+    public void recargaDurabilidad(float recarga_durabilidad){
+        durabilidad += recarga_durabilidad;
+    }
+
+    public float getDurabilidad(){
+        return durabilidad;
+    }
 
 }
